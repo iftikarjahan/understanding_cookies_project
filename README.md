@@ -1,1 +1,3 @@
-Simple use npm install and start using express js
+->Simply use npm install and start using express js
+->Also checkout every commit to understand it step by step
+->to checkout every commit, use git checkout <commit_header>
