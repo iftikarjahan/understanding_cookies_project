@@ -19,5 +19,8 @@ req would be parsed by the cookie parser and then displayed accordingly with the
 */ 
 router.get("/dashboard",controllers.displayCookieDataController);
 
+// deleting the cookie
+router.get("/logout",controllers.logoutController);
+
 module.exports=router;
 
