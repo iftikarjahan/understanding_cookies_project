@@ -12,5 +12,12 @@ browser itself
 */ 
 router.get("/login",controllers.loginController);
 
+/*
+->Now we are going to do a get request that is going to extract the cookie data
+->So whenever this get request is done, it also sends the cookie data to the req and this
+req would be parsed by the cookie parser and then displayed accordingly with the specific modifications
+*/ 
+router.get("/dashboard",controllers.displayCookieDataController);
+
 module.exports=router;
 
